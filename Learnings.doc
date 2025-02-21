@@ -11,7 +11,7 @@ and how they are billed.
 3. RDS
 4. Route 53
 5. S3
-
+----------------------------------------------------------------------------------------------------------------------------------------
 
 1. AWS CodePipeline Explained Simply
 
@@ -112,10 +112,18 @@ Instead of doing each step manually, CodePipeline ensures everything happens in 
 
 - P.S. If something goes wrong, we can roll back to the previous version easily!
 
-Summary: So, what happens in a single Pipeline in Action - 
-1. Source: CodePipeline detects new code from GitHub/CodeCommit.
-2. Build: CodeBuild compiles and tests the code.
-3. Deploy: The fixed version is deployed to AWS services.
-4. Monitor: Approve, monitor, or roll back if needed.
+So, in short what happens in a single Pipeline in Action - 
+	1. Source: CodePipeline detects new code from GitHub/CodeCommit.
+	2. Build: CodeBuild compiles and tests the code.
+	3. Deploy: The fixed version is deployed to AWS services.
+	4. Monitor: Approve, monitor, or roll back if needed.
 
 Instead of doing this manually every time, CodePipeline automates everything, making deployments faster, safer, and hassle-free.
+
+- Summary:
+	1. Codepipeline will build code and can deploy it to various AWS services. 
+	2. It is charged per pipeline. 
+	3. Can be used with Elastic Beanstalk for blue/green no-downtime deployments.
+----------------------------------------------------------------------------------------------------------------------------------------
+
+2. Elastic Load Balancing
