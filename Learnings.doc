@@ -11,7 +11,7 @@ and how they are billed.
 3. RDS
 4. Route 53
 5. S3
-----------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1. AWS CodePipeline Explained Simply - https://aws.amazon.com/codepipeline/
 
@@ -125,7 +125,7 @@ Instead of doing this manually every time, CodePipeline automates everything, ma
 	2. It is charged per pipeline. 
 	3. Can be used with Elastic Beanstalk for blue/green no-downtime deployments.
 
-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2. Elastic Load Balancing - https://aws.amazon.com/elasticloadbalancing/
 
@@ -169,6 +169,7 @@ summary :
 	1. Distributes traffic across application servers, such as EC2, Lambda or Fargate. 
 	2. Can use health checks to know which servers should service requests. 
 	3. Charges are based on the number of hours the load balancer runs and (at a high level) the amount of traffic it services. The actual charging rules can be quite complex.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3. RDS - https://aws.amazon.com/rds/
@@ -182,3 +183,8 @@ summary :
 - You can also adjust the size of the "machine" as your needs grow, but to make those changes, you’ll need to restart it (like rebooting a computer to apply updates).
 - In simple terms, RDS lets you use a database without worrying about the technical details, while also giving you flexibility in how much space and power you need, 
 with the cost based on how much you use it.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
