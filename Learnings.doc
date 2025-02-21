@@ -13,7 +13,7 @@ and how they are billed.
 5. S3
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-1. AWS CodePipeline Explained Simply
+1. AWS CodePipeline Explained Simply - https://aws.amazon.com/codepipeline/
 
 Imagine we’re baking a cake. We have a step-by-step process:
 	1.	Gather ingredients
@@ -124,9 +124,10 @@ Instead of doing this manually every time, CodePipeline automates everything, ma
 	1. Codepipeline will build code and can deploy it to various AWS services. 
 	2. It is charged per pipeline. 
 	3. Can be used with Elastic Beanstalk for blue/green no-downtime deployments.
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-2. Elastic Load Balancing 
+2. Elastic Load Balancing - https://aws.amazon.com/elasticloadbalancing/
 
 Imagine you own a restuarant, and a huge number of customers start coming in. You have multiple chefs to prepare food, but if all orders go to just one chef,
 that chef will be overloaded and slow while others sit idle. So, what do you do? You hire a manager who takes new orders and distributes them evenly among 
@@ -158,11 +159,34 @@ How ELB is Charged?
 	1. Time running (per hour)
 	2. Data processed (amount of traffic handled)
 
-In Short:
+What will happen without ELB?
+	- Without ELB: A single server gets overloaded, slowing down your website.
+	- With ELB: Traffic is evenly spread across multiple servers, ensuring smooth performance.
 
-Without ELB: A single server gets overloaded, slowing down your website.
-With ELB: Traffic is evenly spread across multiple servers, ensuring smooth performance.
+In short , ELB is like a traffic cop or a smart manager that keeps everything running efficiently!
 
-ELB is like a traffic cop 🚦 or a smart manager that keeps everything running efficiently!
+summary :
+	1. Distributes traffic across application servers, such as EC2, Lambda or Fargate. 
+	2. Can use health checks to know which servers should service requests. 
+	3. Charges are based on the number of hours the load balancer runs and (at a high level) the amount of traffic it services. The actual charging rules can be quite complex.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Does this make sense? Let me know if you want more details! 😊
+3. RDS - https://aws.amazon.com/rds/
+
+- RDS (Relational Database Service) is a cloud service provided by AWS (Amazon Web Services) that allows you to set up, manage, and scale relational databases in the cloud.
+- In short, RDS is like renting a database from AWS to store and manage your data without having to build and maintain it yourself.
+- A database is like a digital filing cabinet where you store information in an organized way, and RDS helps you keep track of that information automatically.
+- It's similar to EC2 (a virtual computer), where you pay for a virtual "machine" with a set amount of resources like storage space, memory, and processing power.
+- Relational database hosting platform. Charged in the same way as EC2 (i.e. a virtual machine with a set amount of resources). 
+- Servers can be resized but must be restarted to do so.
+
+
+
+
+
+- You can also adjust the size of the "machine" as your needs grow, but to make those changes, you’ll need to restart it (like rebooting a computer to apply updates).
+
+
+
+
+In simple terms, RDS lets you use a database without worrying about the technical details, while also giving you flexibility in how much space and power you need, with the cost based on how much you use it.
