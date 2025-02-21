@@ -147,24 +147,22 @@ As for costs, the restaurant pays the manager based on how long the manager work
 	4. If a server goes down or is too slow, ELB redirects traffic to other healthy servers.
 	5. Users get a fast, smooth experience without knowing what’s happening behind the scenes.
 
-Why is ELB Important?
 
-✅ Prevents overload – No single server gets overwhelmed.
-✅ Handles failures – If a server crashes, traffic is automatically redirected.
-✅ Improves speed – Requests are evenly spread for faster responses.
-✅ Scalability – As traffic increases, AWS can add more servers automatically.
+- Why is ELB Important?
+	1. Prevents overload – No single server gets overwhelmed.
+	2. Handles failures – If a server crashes, traffic is automatically redirected.
+	3. Improves speed – Requests are evenly spread for faster responses.
+	4. Scalability – As traffic increases, AWS can add more servers automatically.
 
-How ELB is Charged 💰
-
-You pay for:
-	•	Time running (per hour)
-	•	Data processed (amount of traffic handled)
+How ELB is Charged?
+	1. Time running (per hour)
+	2. Data processed (amount of traffic handled)
 
 In Short:
 
-🔹 Without ELB: A single server gets overloaded, slowing down your website.
-🔹 With ELB: Traffic is evenly spread across multiple servers, ensuring smooth performance.
+Without ELB: A single server gets overloaded, slowing down your website.
+With ELB: Traffic is evenly spread across multiple servers, ensuring smooth performance.
 
-ELB is like a traffic cop 🚦 or a smart manager that keeps everything running efficiently! 🚀
+ELB is like a traffic cop 🚦 or a smart manager that keeps everything running efficiently!
 
 Does this make sense? Let me know if you want more details! 😊
