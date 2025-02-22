@@ -39,7 +39,7 @@ Instead of doing each step manually, CodePipeline ensures everything happens in 
 	CodePipeline automates these steps, making sure:
 	1. Every time a developer makes a change, the code is built and tested automatically.
 	2. If everything looks good, the new version is deployed to AWS services like EC2, Lambda, or S3.
-	3. If something goes wrong, it stops the process so bad code isn’t deployed.
+ 	3. If something goes wrong, it stops the process so bad code isn’t deployed.
 
 
 - Why Use CodePipeline?
@@ -187,13 +187,40 @@ with the cost based on how much you use it.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+4. Route 53: https://aws.amazon.com/route53/
+	- Route 53 is AWS’s domain name system (DNS) and domain management service. 
+	- Think of it as the address book of the internet - it helps users find websites by translating human-friendly domain names (like `example.com`) 
+	into IP addresses (like `192.168.1.1`) that computers use to communicate.  
 
+- How It Works in Simple Terms:  
+	1. Domain Registration – You can buy and manage domain names directly through AWS Route 53 (like buying `mywebsite.com`).  
+	2. DNS Routing – When someone types your website name in a browser, Route 53 directs them to the right server hosting your website or app.  
+	3. Health Checks – It can monitor your website’s health and redirect traffic if a server goes down.  
 
+Why "Route 53" ? 
+- "Route" refers to routing traffic, and "53" comes from "port 53", which is the standard port for DNS services.  
 
+In short, Route 53 helps people connect to websites and apps easily by managing domain names and directing traffic reliably! 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+5. S3   
+	- S3 (Simple Storage Service) is AWS’s cloud storage service where you can store and retrieve files, also known as objects (which can be 
+	documents, images, videos, backups, or any type of data).  
 
+	- How It Works in Simple Terms?
+		Think of S3 as an infinite online locker where you can keep your files. You don’t need to worry about running out of space because it scales automatically.  
 
+	- How You’re Charged?
+		1. Storage Amount – The more data you store, the more you pay.  
+		2. Storage Class – Different storage options are available based on how frequently you access your files 
+		(e.g., standard storage for daily use vs. archival storage for long-term backups).  
+		3. Retrieval Costs – You may pay extra if you need to access or transfer data frequently, especially for long-term storage options.  
+
+Summary: 
+S3 is like a secure, scalable online locker for storing files, where costs depend on how much data you store, how it’s stored, and how often you access it! 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
