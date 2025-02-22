@@ -6,6 +6,7 @@ Job Description : To Develop a scalable hosting architecture to support a rapidl
 - Learned about various AWS services, created architecture diagrams, and explained cost structures.
 - Engaged in real-world client communication by drafting emails to articulate the proposed architecture and its billing details.
 - Additionally, interacted with an Early Careers Manager at AWS, to gain insights into industry best practices.
+
  
 During my internship, 
 - I assisted in explaining the selection of Elastic Beanstalk to the customer, detailing its components and their roles.
